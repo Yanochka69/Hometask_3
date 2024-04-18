@@ -1,0 +1,25 @@
+.card{
+    width: 350px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 3px solid  #6bbb97;
+    background-color: #8f71ba78;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    word-wrap: break-word;
+    overflow: auto;
+}
+.card:hover{
+    box-shadow: 0 0 17px #6bbb97;
+}
+.button{
+    background-color: #6bbb97;
+    border: 3px solid #fffe79;
+}
+.button:hover{
+    background: linear-gradient(#6bbb97, #fffe79);
+}

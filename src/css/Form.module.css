@@ -1,0 +1,33 @@
+.button{
+    margin-top: 40px;
+    background-color: #6bbb97;
+    border: 3px solid #fffe79;
+}
+.button:hover{
+    background: linear-gradient(#6bbb97, #fffe79);
+}
+.form{
+    width: 500px;
+    height: 600px;
+    margin: 25px 30px;
+    padding: 15px;
+    background: linear-gradient(45deg, #ff13008a, #fffe79 );
+    border-radius: 10px;
+    border: 3px solid  #6bbb97;
+}
+.input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+.input:focus{
+    outline: none;
+}
+.textarea{
+    resize: none;
+    border-radius: 10px;
+}
+.textarea:focus{
+    outline: none;
+}
